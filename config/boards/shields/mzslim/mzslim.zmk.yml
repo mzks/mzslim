@@ -1,0 +1,12 @@
+file_format: "1"
+id: mzslim
+name: mzslim
+type: board
+url: https://github.com/mzks/mzslim/
+requires: [seeed_xiao]
+features:
+  - keys
+  - encoder
+siblings:
+  - mzslim_left
+  - mzslim_right

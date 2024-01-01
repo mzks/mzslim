@@ -1,0 +1,5 @@
+config SHIELD_MZSLIM_LEFT
+    def_bool $(shields_list_contains,mzslim_left)
+
+config SHIELD_MZSLIM_RIGHT
+    def_bool $(shields_list_contains,mzslim_right)

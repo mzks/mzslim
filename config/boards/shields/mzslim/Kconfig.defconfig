@@ -1,0 +1,17 @@
+if SHIELD_MZSLIM_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "mzslim"
+config ZMK_USB
+    default y
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_MZSLIM_LEFT || SHIELD_MZSLIM_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

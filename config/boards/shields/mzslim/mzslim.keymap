@@ -11,7 +11,7 @@
 
         default_layer {
             bindings = <
-            &kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T     &kp Y   &kp U   &kp I   &kp O   &kp P  &kp DEL
+            &kp TAB    &kp Q   &kp W   &kp E   &kp R   &kp T     &kp Y   &kp U   &kp I   &kp O   &kp P  &kp BSPC
             &kp LCTRL  &kp A   &kp S   &kp D   &kp F   &kp G     &kp H   &kp J   &kp K   &kp L   &kp SEMI  &kp SQT
             &kp LSHIFT &kp Z   &kp X   &kp C   &kp V   &kp B     &kp N   &kp M   &kp COMMA   &kp DOT   &kp SLASH  &kp RSHIFT
             &bt BT_SEL 0   &bt BT_SEL 1  &mt LALT LANG2  &mt LCMD LANG1   &lt 1 SPACE  &lt 1 SPACE  &mt RCMD LANG2  &mt RALT LANG1  &bt BT_SEL 2   &bt BT_CLR
@@ -20,7 +20,7 @@
 
         symbol_layer {
             bindings = <
-            &kp TAB     &kp EXCL   &kp AT   &kp HASH   &kp DOLLAR   &kp PERCENT     &kp CARET   &kp AMPERSAND   &kp ASTERISK   &kp LPAR   &kp RPAR  &kp BSPC
+            &kp TAB     &kp EXCL   &kp AT   &kp HASH   &kp DOLLAR   &kp PERCENT     &kp CARET   &kp AMPERSAND   &kp ASTERISK   &kp LPAR   &kp RPAR  &kp DEL
             &kp LCTRL   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0  &kp ENTER
             &kp LSHIFT  &kp PIPE   &kp UNDER   &kp PLUS   &kp LBKT   &kp RBKT     &kp LBRC   &kp RBRC   &kp MINUS   &kp EQUAL   &kp BSLH  &kp GRAVE
             &bt BT_SEL 0   &bt BT_SEL 1  &mt LALT LANG2  &mt LCMD LANG1   &lt 1 SPACE  &lt 1 SPACE  &mt RCMD LANG2  &mt RALT LANG1  &bt BT_SEL 2   &bt BT_CLR

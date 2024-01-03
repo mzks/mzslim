@@ -22,8 +22,8 @@
         symbol_layer {
             bindings = <
             &kp TAB     &kp EXCL   &kp AT   &kp HASH   &kp DOLLAR   &kp PERCENT     &kp CARET   &kp AMPERSAND   &kp ASTERISK   &kp LPAR   &kp RPAR  &kp MINUS
-            &kp LCTRL   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0  &kp MINUS
-            &kp LSHIFT  &kp N1   &kp N2   &kp N3   &kp N4   &kp N5     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0  &kp MINUS
+            &kp LCTRL   &kp INT_HENKAN   &kp INT_MUHENKAN   &kp INT2   &kp N4   &kp N5     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0  &kp MINUS
+            &kp LSHIFT  &kp LANG2   &kp LANG3   &kp LANG4   &kp LANG5   &kp N5     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0  &kp MINUS
             &bt BT_SEL 0   &bt BT_SEL 1  &kp X  &mt LCMD INT_MUHENKAN   &lt 1 SPACE  
             &lt 1 SPACE  &mt RCMD INT_HENKAN  &kp X &bt BT_SEL 2   &bt BT_SEL 3
             >;

@@ -68,8 +68,8 @@
 
         custom_layer {
             bindings = <
-            &kp ESC        &kp Q   &kp W   &kp E   &kp R   &kp T     &kp Y   &kp U   &kp UP   &kp O   &kp P  &kp BSPC
-            &mt LCTRL TAB  &kp A   &kp S   &kp D   &kp F   &kp G     &kp H   &kp LEFT   &kp DOWN   &kp RIGHT   &kp SEMI  &kp SQT
+            &bt BT_CLR   &out OUT_BLE  &out OUT_USB   &kp E   &kp R   &kp T     &kp Y   &kp U   &kp UP   &kp O   &kp P  &kp BSPC
+            &mt LCTRL TAB &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp H   &kp LEFT   &kp DOWN   &kp RIGHT   &kp SEMI  &kp SQT
             &kp LSHIFT &kp Z   &kp X   &kp C   &kp V   &kp B     &kp N   &kp M   &kp COMMA   &kp DOT   &kp SLASH  &kp RSHIFT
             &td2  &td3  &mt LALT LANG1  &mt LCMD LANG2   &lt 1 SPACE  &lt 1 ENTER  &mt RCMD LANG1  &lt 2 C_MUTE  &td4   &bt BT_SEL 6
             >;

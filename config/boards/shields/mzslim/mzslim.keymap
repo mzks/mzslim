@@ -61,7 +61,7 @@
             bindings = <
             &kp GRAVE     &kp EXCL   &kp AT   &kp HASH   &kp DOLLAR   &kp PERCENT     &kp CARET   &kp AMPERSAND   &kp ASTERISK   &kp LPAR   &kp RPAR  &kp BSPC
             &kp LCTRL   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0  &kp ENTER
-            &kp LSHIFT  &kp PIPE   &kp UNDER   &kp PLUS   &kp LBKT   &kp RBKT     &kp LBRC   &kp RBRC   &kp MINUS   &kp EQUAL   &kp BSLH  &kp GRAVE
+            &kp LSHIFT  &kp PIPE   &kp PLUS   &kp UNDER   &kp LBKT   &kp RBKT     &kp LBRC   &kp RBRC   &kp MINUS   &kp EQUAL   &kp BSLH  &kp GRAVE
             &td2  &td3  &mt LALT LANG1  &mt LCMD LANG2   &lt 1 SPACE  &lt 1 ENTER  &mt RCMD LANG1  &lt 2 C_MUTE  &td4   &bt BT_SEL 6
             >;
         };

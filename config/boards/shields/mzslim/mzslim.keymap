@@ -53,16 +53,16 @@
             &kp ESC        &kp Q   &kp W   &kp E   &kp R   &kp T     &kp Y   &kp U   &kp I   &kp O   &kp P  &kp BSPC
             &mt LCTRL TAB  &kp A   &kp S   &kp D   &kp F   &kp G     &kp H   &kp J   &kp K   &kp L   &kp SEMI  &kp SQT
             &kp LSHIFT &kp Z   &kp X   &kp C   &kp V   &kp B     &kp N   &kp M   &kp COMMA   &kp DOT   &kp SLASH  &kp RSHIFT
-            &td2  &td3  &mt LALT LANG1  &mt LCMD LANG2   &lt 1 SPACE  &lt 1 ENTER  &mt RCMD LANG1  &lt 2 C_MUTE  &td4   &bt BT_SEL 6
+            &td2  &td3  &mt LALT C_MUTE  &mt LCMD LANG2   &lt 1 SPACE  &lt 1 ENTER  &mt RCMD LANG1  &lt 2 C_MUTE  &td4   &bt BT_SEL 6
             >;
         };
 
         symbol_layer {
             bindings = <
             &kp GRAVE     &kp EXCL   &kp AT   &kp HASH   &kp DOLLAR   &kp PERCENT     &kp CARET   &kp AMPERSAND   &kp ASTERISK   &kp LPAR   &kp RPAR  &kp BSPC
-            &kp LCTRL   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0  &kp ENTER
+            &mo 3   &kp N1   &kp N2   &kp N3   &kp N4   &kp N5     &kp N6   &kp N7   &kp N8   &kp N9   &kp N0  &kp ENTER
             &kp TILDE  &kp PIPE   &kp PLUS   &kp UNDER   &kp LBKT   &kp RBKT     &kp LBRC   &kp RBRC   &kp MINUS   &kp EQUAL   &kp BSLH  &kp GRAVE
-            &td2  &td3  &mt LALT LANG1  &mt LCMD LANG2   &lt 1 SPACE  &lt 1 ENTER  &mt RCMD LANG1  &lt 2 C_MUTE  &td4   &bt BT_SEL 6
+            &td2  &td3  &mt LALT C_MUTE  &mt LCMD LANG2   &lt 1 SPACE  &lt 1 ENTER  &mt RCMD LANG1  &lt 2 C_MUTE  &td4   &bt BT_SEL 6
             >;
         };
 
@@ -71,7 +71,16 @@
             &bt BT_CLR   &out OUT_BLE  &out OUT_USB   &kp E   &kp R   &kp T     &kp Y   &kp U   &kp UP   &kp O   &kp P  &kp BSPC
             &mt LCTRL TAB &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp H   &kp LEFT   &kp DOWN   &kp RIGHT   &kp SEMI  &kp SQT
             &kp LSHIFT &kp Z   &kp X   &kp C   &kp V   &kp B     &kp N   &kp M   &kp COMMA   &kp DOT   &kp SLASH  &kp RSHIFT
-            &td2  &td3  &mt LALT LANG1  &mt LCMD LANG2   &lt 1 SPACE  &lt 1 ENTER  &mt RCMD LANG1  &lt 2 C_MUTE  &td4   &bt BT_SEL 6
+            &td2  &td3  &mt LALT C_MUTE  &mt LCMD LANG2   &lt 1 SPACE  &lt 1 ENTER  &mt RCMD LANG1  &lt 2 C_MUTE  &td4   &bt BT_SEL 6
+            >;
+        };
+
+        system_layer {
+            bindings = <
+            &bt BT_CLR   &out OUT_BLE  &out OUT_USB   &kp E   &kp R   &kp T     &kp Y   &kp U   &kp UP   &kp O   &kp P  &kp BSPC
+            &mt LCTRL TAB &bt BT_SEL 0  &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &kp H   &kp LEFT   &kp DOWN   &kp RIGHT   &kp SEMI  &kp SQT
+            &kp LSHIFT &kp Z   &kp X   &kp C   &kp V   &kp B     &kp N   &kp M   &kp COMMA   &kp DOT   &kp SLASH  &kp RSHIFT
+            &td2  &td3  &mt LALT C_MUTE  &mt LCMD LANG2   &lt 1 SPACE  &lt 1 ENTER  &mt RCMD LANG1  &lt 2 C_MUTE  &td4   &bt BT_SEL 6
             >;
         };
 
